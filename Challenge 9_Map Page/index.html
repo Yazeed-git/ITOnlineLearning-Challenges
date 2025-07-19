@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Map Page Challenge</title>
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <img src="assets/images/logo_white.svg" alt="logo image" class="logo">
+            <nav class="nav1">
+                <ul>
+                    <li><a href="">Search for Homes</a></li>
+                    <li><a href="">Agents and Offices</a></li>
+                    <li><a href="">Local Information</a></li>
+                </ul>
+            </nav>
+            <nav class="nav2">
+                <ul>
+                    <li><a href="">Buying & Selling Your Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <form class="form-header">
+
+            <div class="search-box">
+                <label for="">Search</label>
+                <input type="text" placeholder="Location">
+            </div>
+
+            <div class="price-box">
+                <div class="min">
+                    <label for="">Price</label>
+                    <input type="text" placeholder="min">
+                </div>
+                <div class="max">
+                    <label for="">Price</label>
+                    <input type="text" placeholder="max">
+                </div>
+            </div>
+
+            <div class="beds-box">
+                <label for="">Beds</label>
+                <input type="text" placeholder="Avg.">
+            </div>
+
+            <div class="baths-box">
+                <label for="">Baths</label>
+                <input type="text" placeholder="Avg.">
+            </div>
+
+            <button type="submit">Update</button>
+            <a href="">Advanced Search</a>
+        </form>
+
+        <map-section>
+
+            <div class="houses-section">
+
+                <div class="house">
+                    <img src="assets/images/house1.jpg" alt="house 1">
+                    <div class="desc">
+                        <h3>Spacious Cottage For Sale</h3>
+                        <h4>£400,000</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem sint, velit veniam ea voluptatem quae?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odit numquam aliquam minus atque eius.</p>
+                    </div>
+                </div>
+
+                <div class="house">
+                    <img src="assets/images/house2.jpg" alt="house 2">
+                    <div class="desc">
+                        <h3>Modern Apartment For Sale</h3>
+                        <h4>£300,000</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint, velit veniam ea voluptatem quae?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odit numquam aliquam minus atque eius.</p>
+                    </div>
+                </div>
+
+                <div class="house">
+                    <img src="assets/images/house3.jpg" alt="house 3">
+                    <div class="desc">
+                        <h3>Luxury Villa For Sale</h3>
+                        <h4>£1,200,000</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint, velit veniam ea voluptatem quae?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum odit numquam aliquam minus atque eius.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="map">
+                <img src="assets/images/map.png" alt="map image">
+            </div>
+
+        </map-section>
+    </div>
+    
+</body>
+</html>
