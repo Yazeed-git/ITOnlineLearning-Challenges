@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>TailwindCSS</title>
+</head>
+<body class="">
+    <body class="">
+    <main class="hero py-4 bg-[url(../assets/images/hero-img.jpg)] bg-cover bg-gray-600 bg-no-repeat bg-blend-overlay h-screen flex justify-center">
+        <div class="container px-6 lg:max-w-10xl">
+            <header class="flex items-center justify-between w-11/12 mx-auto">
+                <img src="assets/images/logo_white.svg" alt="logo icon" class="logo">
+                <img src="assets/images/Menu.svg" alt="menu icon" class="menu menu-open w-8 h-8 sm:hidden">
+                <nav class="navbar hidden sm:block">
+                    <img src="assets/images/Close.svg" alt="menu icon" class="menu menu-closed sm:hidden w-8 h-8">
+                    <ul class="flex items-center gap-5">
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#projects" class="text-white">Projects</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="hero__content mt-40 lg:mt-80 flex flex-col items-center ">
+                <h1 class="hero__title text-5xl text-center text-white font-bold leading-12 mb-5">TailwindCSS Framework Challenge</h1>
+                <p class="hero__subtitle text-white text-center mb-10 text-sm leading-8">Learn TailwindCSS by building projects and solving challenges. This should make developing websites easier and efficient.</p>
+                <a href="" class="hero__btn px-5 py-3 bg-green-400 rounded uppercase font-bold inline-block">Read More</a>
+            </div>
+        </div>
+    </main>
+
+    <section class="features-section py-20 bg-gray-100 flex flex-col items-center">
+        <div class="container px-6">
+            <div class="flex flex-col md:flex-row items-center flex-wrap md:justify-center gap-6 py-15">
+                <div class="feature-1 text-center w-50">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+                <div class="feature-2 text-center w-50">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+                <div class="feature-3 text-center w-50">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+                <div class="feature-4 text-center w-50">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+            </div>
+
+            <div class="products-container py-10 text-center">
+                <h2 class="text-center font-bold text-xl mb-5">EXAMPLES OF SERVICES OR PRODUCTS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestias necessitatibus accusamus ducimus dolorum autem, incidunt ut eum repellendus. Repellendus sed numquam eum ipsam ad quae quis ipsum optio asperiores tempora magni, illum veritatis earum consequatur, vero, sapiente fugiat reiciendis?</p>
+            </div>
+
+            <div class="grid gallery grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 py-15 place-items-center lg:max-w-4xl lg:mx-auto">
+                <img src="assets/images/gallery-img1.jpg" alt="product image " class="w-full h-80 object-cover">
+                <img src="assets/images/gallery-img2.jpg" alt="product image " class="w-full h-80 object-cover">
+                <img src="assets/images/gallery-img1.jpg" alt="product image " class="w-full h-80 object-cover">
+                <img src="assets/images/gallery-img2.jpg" alt="product image " class="w-full h-80 object-cover">
+                <img src="assets/images/gallery-img1.jpg" alt="product image " class="w-full h-80 object-cover">
+                <img src="assets/images/gallery-img2.jpg" alt="product image " class="w-full h-80 object-cover">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="products-section py-10 text-center">
+        <h2 class="uppercase text-3xl font-bold">Take a look at our awesome products</h2>
+
+        <div class="container flex flex-col items-center md:flex-row flex-wrap justify-center py-15 mx-auto  gap-10">
+
+            <img src="assets/images/FLOWER.jpg" alt="product image" class="w-96 md:order-4 lg:order-2 lg:w-1/3">
+
+            <div class="info-list1 flex flex-col items-center gap-5 lg:w-1/3 md:order-1 lg:order-1 lg:w-80">
+                <div class="feature-1 text-center w-50">
+                        <img src="" alt="">
+                        <strong>Content Heading</strong>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                    </div>
+                <div class="feature-2 text-center w-50">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+                <div class="feature-3 text-center w-50">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+            </div>
+           
+            <div class="info-list2 info-list1 flex flex-col items-center gap-5 lg:w-1/3 md:order-2 lg:order-3 lg:w-80">
+                <div class="feature-4 text-center w-50">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+                <div class="feature-4 text-center w-50 order-6">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+                <div class="feature-4 text-center w-50 order-7">
+                    <img src="" alt="">
+                    <strong>Content Heading</strong>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</p>
+                </div>
+            </div>
+            
+    </div>
+    </section>
+
+    <section class="testimonial-section w-11/12 mx-auto lg:w-256 flex flex-col items-center">
+        <div class="container place-items-center px-6">
+
+            <div class="content text-center mb-10">
+            <h2 class="text-xl font-bold mb-4">TESTIMONIALS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui molestias necessitatibus accusamus ducimus dolorum autem, incidunt ut eum repellendus. Repellendus sed numquam eum ipsam ad quae quis ipsum optio asperiores tempora magni, illum veritatis earum consequatur, vero, sapiente fugiat reiciendis?</p>
+            </div>
+
+            <figure class="user-testimonial flex flex-col flex-wrap lg:flex-row gap-6 justify-center items-center py-10">
+                <div class="feature-1 text-center w-60 lg:w-80">
+                        <img src="" alt="user" class="inline-block"><figcaption>Name</figcaption>
+                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</blockquote>
+                </div>
+                <div class="feature-2 text-center w-60 lg:w-80">
+                        <img src="" alt="user" class="inline-block"><figcaption>Name</figcaption>
+                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</blockquote>
+                </div>
+                <div class="feature-3 text-center w-60 lg:w-80">
+                        <img src="" alt="user" class="inline-block"><figcaption>Name</figcaption>
+                        <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat fugit et corporis aut ea!</blockquote>
+                </div>
+            </figure>
+    </div>
+    </section>
+
+    <footer class="bg-gray-800 pt-10 md:flex justify-center">
+        <div class=" container flex flex-col md:flex-row flex-wrap gap-10 md:justify-center md:items-start items-center w-full lg:max-w-10xl lg:justify-evenly">
+
+            <div class="contact-container flex flex-col md:w-50 items-center md:items-start gap-4 md:items-left">
+                <img src="assets/images/logo_white.svg" alt="" class=" w-30 logo">
+                <a href="tel:+1234567890" class="text-white">+1234567890</a>
+                <a href="mailto:itonline-learning.co.uk" class="text-white">ITOnlineLearning.co.uk</a>
+            </div>
+
+
+            <form action="" class=" p-6 md:p-0 rounded-lg text-white text-center md:text-left w-full md:w-128">
+                <h3 class="font-bold uppercase">Contact Us</h3>
+                <p class="mb-5">Send us a message</p>
+                <input type="text" placeholder="Your Name" class="block w-full mb-4 p-2 rounded bg-gray-700 text-white">
+                <input type="email" placeholder="Your Email" class="block w-full mb-4 p-2 rounded bg-gray-700 text-white">
+                <textarea name="" id="" placeholder="Your Message" class="block w-full mb-4 p-2 rounded bg-gray-700 text-white"></textarea>
+                <button type="submit" class=" bg-white w-full py-2 rounded text-black">SUBMIT</button>
+            </form>
+
+            <div class="sitemap-container text-white md:w-40">
+                <h3 class="mb-10 font-bold md:text-center">SITEMAP</h3>
+                <ul class="flex flex-col items-center justify-center gap-4 mt-4">
+                    <li><a href="#" class="text-gray-400 hover:text-gray-100">Home</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-gray-100">Projects</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-gray-100">Contact</a></li>
+                </ul>
+            </div>
+
+            <p class=" bg-gray-900 text-gray-600 w-full text-center py-4">© 2023 TailwindCSS Framework Challenge. All rights reserved.</p>
+            
+        </div>
+    </footer>
+    
+</body>
+</body>
+</html>
